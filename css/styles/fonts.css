@@ -1,0 +1,354 @@
+/**
+ * @package Site Template
+ * @subpackage Bigfish HTML
+ * @since Bigfish 1.0
+ * 
+ * Site Template Fonts & Colors
+ * Created by CMSMasters
+ * 
+ */
+ 
+/* Fonts */
+
+body, 
+li p,
+.cmsms-form-builder div > a,
+.tab.lpr .tab_content a,
+input[type="submit"],
+div.jp-playlist li a,
+.sitemap a,
+.cms_archive li,
+.cms_archive li a,
+.cmsms_post_info,
+.cmsms_post_info a,
+.cmsms-edit,
+.project_details,
+.project_details a,
+.project_details abbr {font:12px/18px "Headland One", serif;}
+
+h1 {font:48px/54px "Headland One", serif;}
+
+h2,
+.sitemap > li > a {font:24px/36px "Headland One", serif;}
+
+h3,
+.sitemap > li > ul > li > a,
+h3 a,
+.post .entry-header .entry-content,
+.post.format-quote blockquote {font:18px/24px "Headland One", serif;}
+
+h4,
+h4 a,
+.widget_portfolio_link,
+.post .cmsms_info .entry-meta,
+.post .cmsms_info .entry-meta a,
+.post_link {font:16px/18px "Headland One", serif;}
+
+h5,
+.tabs li a,
+.related_posts ul li a,
+.tog,
+.tour li a,
+.table thead th,
+.entry .project_navi span a {font:14px/18px "Headland One", serif;}
+
+h6 {font:12px/18px "Droid Serif", serif;}
+
+h6 {font-style:italic;}
+
+li {line-height:24px;}
+
+li p,
+li a,
+li abbr,
+li small {line-height:18px;}
+
+q, 
+blockquote {font:14px/24px "Headland One", serif;}
+
+q:before, 
+q:after, 
+blockquote:before,
+blockquote:after {
+	font:36px/36px "Droid Serif", serif;
+	font-style:italic;
+}
+
+code,
+.widget_links li a,
+.widget_archive li a,
+.widget_categories li a,
+.widget_nav_menu li a,
+.widget_meta li a,
+.widget_pages li a,
+.arrow_dash_r li a {font:12px/18px "Headland One", serif;}
+
+small, 
+abbr {font:12px/18px "Headland One", serif;}
+
+input, 
+textarea, 
+select, 
+option, 
+.cmsms-form-builder .check_parent input[type="checkbox"]+label, 
+.cmsms-form-builder .check_parent input[type="radio"]+label {font:12px/18px "Headland One", serif;}
+
+#navigation > li > a,
+#navigation > li.current_page_item > a,
+#navigation > li:hover > a {font:14px/18px "Headland One", serif;}
+
+#navigation ul li a {font:13px/18px "Droid Serif", serif;}
+
+a,
+.cont_nav,
+.widget abbr,
+.post_type_shortcode .cmsms_category,
+.comment-body .published,
+#slider h1,
+#slider h2,
+#slider h3 {font-family:"Droid Serif", serif;}
+
+a,
+.cont_nav,
+.widget abbr,
+.post_type_shortcode .cmsms_category,
+.comment-body .published,
+#slider h1,
+#slider h2,
+#slider h3 {font-style:italic;}
+
+span.dropcap2,
+span.dropcap,
+ul.p_filter li a,
+.social_block ul li a,
+.featured_block .fb_link {font-family:"Headland One", serif;}
+
+#slider h1 {
+	font-size:230px;
+	line-height:230px;
+}
+
+#slider h2 {
+	font-size:120px;
+	line-height:120px;
+}
+
+#slider h3 {
+	font-size:100px;
+	line-height:100px;
+}
+
+#slider h4 {
+	font-size:40px;
+	line-height:40px;
+}
+
+#slider,
+#slider a,
+#slider h6 {
+	font-size:15px;
+	line-height:18px;
+}
+
+.footer_inner {font-size:13px;}
+
+@media only screen and (max-width: 767px) {
+
+	#navigation ul li a {font:14px/18px "Headland One", serif;}
+
+}
+
+
+/* Colors */
+
+body,
+.cmsms-form-builder div > a,
+div.jp-playlist li a,
+.headline h5,
+.project_details .details_title,
+.project_details .cmsmsLike span {
+	color:#616161;
+}
+
+a,
+.tab.lpr .tab_content .lpr_comments,
+.post_type_shortcode .cmsms_category,
+.portfolio_inner .cmsms_category,
+.comment-body .published,
+.featured_block .fb_link:hover,
+.widget_text h1 a:hover {
+	color:#202020;
+}
+
+a:hover,
+.project_details .cmsmsLike:hover span,
+.project_details .cmsmsLike.active span,
+h2 a,
+.color_2,
+.error h1,
+.tour li.current a,
+.tabs li a.current,
+.related_posts ul li a.current,
+.tog.current,
+.cmsms-form-builder div > a:hover,
+.cont_nav,
+.cont_nav a:hover,
+.cmsmsLike:hover,
+.cmsmsLike.active,
+div.jp-playlist li a:hover,
+div.jp-playlist li.jp-playlist-current a,
+.post .cmsms_info .entry-meta a,
+.post_link:hover,
+.entry .project_navi span a:hover,
+.project_details a:hover,
+.social_block ul li a:hover,
+.featured_block .fb_link,
+.widget_text h1 a {
+	color:#6bd0cf;
+}
+
+h1 {color:#000000;}
+
+h2,
+h2 a:hover {color:#000000;}
+
+h3 {color:#000000;}
+
+h4,
+.post_link {color:#000000;}
+
+h5 {color:#000000;}
+
+h6 {color:#000000;}
+
+#navigation li > a {
+	color:#202020;
+}
+
+#navigation li.current-menu-ancestor > a, 
+#navigation li.current_page_item > a, 
+#navigation li.current_page_ancestor > a,
+#navigation li:hover > a:hover, 
+#navigation li:hover > a {
+	color:#6bd0cf;
+}
+
+#navigation li li > a,
+.cont_nav a {
+	color:#202020;
+}
+
+#navigation li li.current_page_item > a,
+#navigation li li:hover > a:hover, 
+#navigation ul li:hover > a {
+	color:#6bd0cf;
+}
+
+q, 
+blockquote {
+	color:#000000;
+}
+
+code {
+	color:#616161;
+}
+
+small, 
+abbr {
+	color:#616161;
+}
+
+input, 
+textarea, 
+select, 
+option {
+	color:#616161;
+}
+
+#slider,
+#slider h1,
+#slider h2, 
+#slider h3,
+#slider h4,
+#slider h5,
+#slider h6 {
+	color:#ffffff;
+}
+
+#slider h6 {
+	color:rgba(255, 255, 255, .5);
+}
+
+#slider a {
+	color:#ffffff;
+}
+
+#slider a:hover {
+	color:#ffffff;
+}
+
+thead th,
+.cmsms-form-builder label,
+.cmsms-form-builder span.db,
+.pricingtable .currency,
+.pricingtable .price,
+.pricingtable .period,
+span.dropcap,
+.cmsms_info,
+.cmsms_info abbr,
+.post .cmsms_info .entry-meta a:hover,
+.wrap_cmsms_tags,
+.post .entry-header .entry-content,
+.entry .project_navi span a,
+#commentform label,
+.project_details,
+.project_details a,
+.project_details abbr {
+	color:#000000;
+}
+
+span.dropcap2,
+.project_details .cmsmsLike:hover,
+.project_details .cmsmsLike.active,
+#slide_top,
+.comment-reply-link,
+.button,
+.button_medium,
+.button_large,
+.skill_item_colored,
+.resp_navigation {
+	background-color:#6bd0cf;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+	border-color:#6bd0cf;
+}
+
+code {border-top-color:#6bd0cf;}
+
+.comment-reply-link:hover,
+.comment-reply-link.active,
+.comment-reply-link.current,
+.button:hover,
+.button.active,
+.button.current,
+.button_medium:hover,
+.button_medium.active,
+.button_medium.current,
+.button_large:hover,
+.button_large.active,
+.button_large.current,
+.cmsms_content_slider_parent ul.cmsms_slides_nav li a:hover,
+.cmsms_content_slider_parent ul.cmsms_slides_nav li.active a,
+.p_filter_container:hover a.p_cat_filter,
+.resp_navigation:hover,
+.resp_navigation.active,
+.resp_navigation.current {
+	background-color:#202020;
+}
+
+.project_details .cmsmsLike {background-color:#cccccc;}
+
+

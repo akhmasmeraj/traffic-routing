@@ -1,0 +1,408 @@
+/**
+ * @package Site Template
+ * @subpackage Goldenway HTML
+ * @since Goldenway 1.0
+ * 
+ * Slider Revolution
+ * Created by: Krisztian Horvath
+ * Changed by: cmsmasters
+ * 
+ */
+
+
+#slider {
+	width:100%;
+	padding:0;
+	position:relative;
+	max-height:734px;
+}
+
+.tp-simpleresponsive .caption {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity:0;
+	position:absolute;
+}
+
+/* -------------------------------------------------------------------------------- Captions */
+
+.wrap_rev_slide {
+	height:100%;
+	width:940px;
+	margin:0 auto;
+	position:relative;
+}
+
+@media only screen and (min-width: 1440px) {
+	
+	.wrap_rev_slide {
+		width:1160px;
+	}
+	
+}
+
+@media only screen and (max-width: 1151px) {
+	
+	.wrap_rev_slide {
+		width:86%;
+	}
+}
+
+.caption.w5 {width:5%;}
+
+.caption.w10 {width:10%;}
+
+.caption.w15 {width:15%;}
+
+.caption.w20 {width:20%;}
+
+.caption.w25 {width:25%;}
+
+.caption.w30 {width:30%;}
+
+.caption.w35 {width:35%;}
+
+.caption.w40 {width:40%;}
+
+.caption.w45 {width:45%;}
+
+.caption.w50 {width:50%;}
+
+.caption.w55 {width:55%;}
+
+.caption.w60 {width:60%;}
+
+.caption.w65 {width:65%;}
+
+.caption.w70 {width:70%;}
+
+.caption.w75 {width:75%;}
+
+.caption.w80 {width:80%;}
+
+.caption.w85 {width:85%;}
+
+.caption.w90 {width:90%;}
+
+.caption.w95 {width:95%;}
+
+.caption.w100 {width:100%;}
+
+.caption {opacity:0;}
+
+/* -------------------------------------------------------------------------------- Bullets */
+
+.tp-bullets	{
+	position:relative;
+	bottom:41px !important;
+	z-index:100;
+	left:auto !important;
+	margin:0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.tp-bullets {
+		bottom:0px !important;
+	}
+
+}
+
+.tp-bullets.simplebullets {bottom:10px;}
+
+.tp-bullets.simplebullets.navbar {
+	bottom:-20px; 
+	background:url(../assets/navigdots_bgtile.png); 
+	height:35px; 
+	padding:0px 0px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px;
+	margin-top:-17px;
+}
+
+.tp-bullets.simplebullets .bullet {
+	background-color:#ffffff;
+	cursor:pointer; 
+	position:relative;
+	width:10px;	
+	height:10px; 
+	margin-right:5px;
+	margin-left:5px;
+	float:left;
+	opacity:.5;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	-webkit-transition:opacity .3s ease-in-out;
+	-moz-transition:opacity .3s ease-in-out;
+	-ms-transition:opacity .3s ease-in-out;
+	-o-transition:opacity .3s ease-in-out;
+	transition:opacity .3s ease-in-out;
+}
+
+.tp-bullets.simplebullets .bullet.first {margin-left:0;}
+
+.tp-bullets.simplebullets .bullet:hover,
+.tp-bullets.simplebullets .bullet.selected {opacity:1;}
+
+/** navbar NAVIGATION VERSION **/
+.tp-bullets.simplebullets.navbar .bullet {
+	cursor:pointer; 
+	position:relative;
+	background:url(../assets/navigdots.png) no-Repeat bottom left;
+	width:15px;	height:15px;
+	margin-left:5px !important;
+	margin-right:5px !important;
+	float:left;
+	margin-top:10px;
+}
+
+.tp-bullets.simplebullets.navbar .bullet.first {margin-left:30px !important;}
+
+.tp-bullets.simplebullets.navbar .bullet.last {margin-right:30px !important;}
+
+
+/* -------------------------------------------------------------------------------- Arrows */
+
+.tp-leftarrow, 
+.tp-rightarrow {
+	background:url(../../images/revolution/assets/arrow_bullet.png) no-repeat 0 0;
+	width:13px;	
+	height:28px;  
+	float:left;
+	margin-top:-2px;
+	z-index:100;
+	cursor:pointer;
+	top:-48px !important;
+	left:auto !important;
+	opacity:.5;
+	-webkit-transition:opacity .3s ease-in-out;
+	-moz-transition:opacity .3s ease-in-out;
+	-ms-transition:opacity .3s ease-in-out;
+	-o-transition:opacity .3s ease-in-out;
+	transition:opacity .3s ease-in-out;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.tp-leftarrow, 
+	.tp-rightarrow {
+		margin-top:-13px;
+	}
+
+}
+
+.tp-rightarrow {
+	background-position:right 0;
+	right:0;
+}
+
+.tp-leftarrow:hover,
+.tp-rightarrow:hover  {opacity:1;}
+
+.tp-leftarrow.navbar.thumbswitharrow {margin-right:10px;}
+
+.tp-rightarrow.navbar.thumbswitharrow {margin-left:0px;}
+
+.tp-leftarrow.large,
+.tp-rightarrow.large {
+	width:76px;	
+	height:150px;
+	margin-top:-350px;
+	-webkit-transition:opacity 0.3s ease-in-out;
+	-moz-transition:opacity 0.3s ease-in-out;
+	-o-transition:opacity 0.3s ease-in-out;
+	-ms-transition:opacity 0.3s ease-in-out;
+	transition:opacity 0.3s ease-in-out;
+}
+
+.tp-leftarrow.large {
+	background:url(../../images/revolution/assets/arrow_centered.png) no-repeat left top;
+	margin-left:-5%;
+}
+
+.tp-rightarrow.large {
+	background:url(../../images/revolution/assets/arrow_centered.png) no-repeat left bottom;
+	margin-right:-5%;
+}
+
+@media only screen and (min-width: 1440px) {
+
+	.tp-leftarrow.large,
+	.tp-rightarrow.large {margin-top:-400px;}
+
+}
+
+@media only screen and (max-width: 1151px) {
+
+	.tp-leftarrow.large,
+	.tp-rightarrow.large {margin-top:-320px;}
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+	.tp-leftarrow.large,
+	.tp-rightarrow.large {margin-top:-280px;}
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	.tp-leftarrow.large,
+	.tp-rightarrow.large {
+		width:13px;	
+		height:28px; 
+		background:url(../../images/revolution/assets/arrow_bullet.png) no-repeat left top;
+		margin-left:0;
+		margin-top:-125px;
+	}
+
+	.tp-rightarrow.large {
+		background:url(../../images/revolution/assets/arrow_bullet.png) no-repeat right top;
+		margin-right:0;
+	}
+	
+}
+
+@media only screen and (max-width: 540px) {
+
+	.tp-leftarrow.large,
+	.tp-rightarrow.large {margin-top:-70px;}
+	
+}
+
+@media only screen and (max-width: 400px) {
+
+	.tp-leftarrow.large,
+	.tp-rightarrow.large {margin-top:-30px;}
+	
+}
+
+
+/* -------------------------------------------------------------------------------- Thumbs */
+
+.tp-bullets.tp-thumbs {
+	z-index:100;
+	position:absolute; 
+	padding:0;
+	background:#2f2f2f;
+	margin-bottom:30px;
+	width:500px;
+	height:50px; /* THE DIMENSIONS OF THE THUMB CONTAINER */
+}
+
+#slider .tp-thumbs {padding:2px;}
+
+.tp-bullets.tp-thumbs .tp-mask {
+	width:500px;
+	height:50px; /* THE DIMENSIONS OF THE THUMB CONTAINER */
+	overflow:hidden; 
+	position:relative;
+}
+
+.tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer {
+	width:5000px;
+	position:absolute;
+}
+
+.tp-bullets.tp-thumbs .bullet {
+	width:100px;
+	height:50px; /* THE DIMENSION OF A SINGLE THUMB */
+	cursor:pointer;
+	overflow:hidden;
+	background:none;
+	margin:0;
+	float:left;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	-webkit-transition: all 0.2s ease-out; 
+	-moz-transition: all 0.2s ease-out; 
+	-o-transition: all 0.2s ease-out; 
+	-ms-transition: all 0.2s ease-out;
+}
+
+.tp-bullets.tp-thumbs .bullet:hover,
+.tp-bullets.tp-thumbs .bullet.selected {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";	
+	filter: alpha(opacity=1);	
+	-moz-opacity: 1;	
+	-khtml-opacity: 1;	
+	opacity: 1;
+}
+
+.tp-thumbs img {width:100%;}
+
+/* -------------------------------------------------------------------------------- Timer */
+
+.tp-bannertimer {
+	display:none;
+	width:100%; 
+	height:5px; 
+	background:url(../../images/revolution/assets/timer.png);
+	position:absolute;
+	left:0;
+	top:-5px;
+	z-index:200;
+}
+
+/* -------------------------------------------------------------------------------- Basic Settings For The Banner */
+
+.slotholder:before {
+	content:'';
+	position:absolute;
+}
+
+.slotholder:after {
+	content:'';
+	position:absolute;
+}
+
+.tp-simpleresponsive img {
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+}
+ 
+.tp-simpleresponsive ul {
+	list-style:none;
+	display:block;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}			
+
+.tp-simpleresponsive > ul > li {
+	width:100%;
+	height:100%;
+	position:absolute;
+	visibility:hidden;
+	overflow:hidden;
+}
+
+/* -------------------------------------------------------------------------------- Caption Slidelink */
+
+.caption.slidelink a div {
+	width:10000px;
+	height:10000px;
+}  
+
+.tp-loader {
+	background:url(../../images/revolution/assets/loader.gif) no-repeat 0 0;
+	margin:-2.5px -20px;
+	top:50%;
+	left:50%;
+	z-index:10000;
+	position:absolute;
+	width:40px;
+	height:5px; 
+}

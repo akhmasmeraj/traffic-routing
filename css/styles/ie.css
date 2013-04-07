@@ -1,0 +1,135 @@
+/**
+ * @package Site Template
+ * @subpackage Goldenway HTML
+ * @since Goldenway 1.0
+ * 
+ * IE 8 Styles Fixes
+ * Created by CMSMasters
+ * 
+ */
+
+
+.tour {width:25%;}
+
+.cmsms_slider_parent a.cmsms_prev_slide, 
+.cmsms_slider_parent a.cmsms_next_slide {margin-top:-25%;}
+ 
+.tabs li a span,
+.related_posts ul li a span {display:block;}
+ 
+#middle {z-index:1;}
+
+#navigation li {z-index:0;}
+
+ul.cmsms_category li, 
+ul.post-categories li {
+    display:block;
+	float:left;
+}
+
+div.p_filter {height:1000px;}
+
+.button,
+.button_medium,
+.button_large,
+.button:hover,
+.button_medium:hover,
+.button_large:hover,
+.button.current,
+.button_medium.current,
+.button_large.current,
+.button.active,
+.button_medium.active,
+.button_large.active {box-shadow:none;}
+
+.fullwidth {
+	height:auto;
+	max-height:100%;
+}
+
+.portfolio_container.one_block .cmsms_category {display:inline-block;}
+
+.tour_box_inner {
+	position:relative;
+	z-index:10;
+}
+
+.p_filter_container ul.p_filter {
+	border:0;
+	top:15px;
+	height:0;
+}
+
+.p_filter_container:hover ul.p_filter {
+	height:auto;
+}
+
+.tab.lpr .tabs li:first-child {width:33.4%}
+
+div.jp-video div.jp-interface {display:none;}
+
+div.jp-video:hover div.jp-interface {display:block;}
+
+.format-gallery .shortcode_slideshow .cmsms_slides_nav,
+.entry .shortcode_slideshow_container .cmsms_slides_nav {max-width:none;}
+
+.cmsms-form-builder .check_parent input[type="checkbox"], 
+.cmsms-form-builder .check_parent input[type="radio"] {
+	float:left;
+	top:10px;
+	left:0;
+	opacity:none;
+}
+
+.cmsms-form-builder .check_parent input[type="radio"]+label,
+.cmsms-form-builder .check_parent input[type="checkbox"]+label {background:none;}
+
+html.ie8 .portfolio_container.one_block>.fl, 
+html.ie7 .portfolio_container.one_block>.fl, 
+html.ie8 .portfolio_container.one_block>.fl>.portfolio, 
+html.ie7 .portfolio_container.one_block>.fl>.portfolio {width:100%}
+
+
+/* ---------- Tablet Portrait (Note: Design for a width more than 767px but less than 1024px) ---------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	
+	.portfolio_container {margin-right:-1.9%;}
+	
+}
+
+
+/* ---------- Small Tablet (Note: Design for a width more than 540px but less than 768px) ---------- */
+
+@media only screen and (min-width: 541px) and (max-width: 767px) {
+
+	.four_blocks.portfolio_container .portfolio,
+	.one_fourth, 
+	.one_fourth.last,  
+	.one_fourth+.one_fourth, 
+	.one_fourth+.one_fourth+.one_fourth, 
+	.one_fourth+.one_fourth+.one_fourth+.one_fourth  {
+		width:100%;
+		float:none;
+		padding-right:0;
+	}
+	
+}
+
+/* ---------- Mobile (Note: Design for a width less than 541px) ---------- */
+
+@media only screen and (max-width: 540px) {
+
+	.four_blocks.portfolio_container .portfolio,
+	.one_fourth, 
+	.one_fourth.last,  
+	.one_fourth+.one_fourth, 
+	.one_fourth+.one_fourth+.one_fourth, 
+	.one_fourth+.one_fourth+.one_fourth+.one_fourth  {
+		width:100%;
+		float:none;
+		padding-right:0;
+	}
+	
+}
+
